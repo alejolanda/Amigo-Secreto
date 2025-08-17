@@ -1,0 +1,234 @@
+/* Codigo Optimizado para el reto de Alura: Amigo Secreto */
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    --color-button-hover: #e55720;
+    --color-reset: #e55720;
+    --color-reset-hover: #ec9f0f;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+    --color-success: #05DF05;
+    --color-disabled: #c7c4c4;
+}
+
+/* Estilos generales optimizados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-width: 800px; /* Límite máximo para pantallas grandes */
+}
+
+/* Mejoras en el banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+.header-banner img {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+/* Sección de entrada mejorada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 2px solid #000; /* Borde más grueso */
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px; /* Más padding vertical */
+    width: 100%;
+}
+
+/* Títulos optimizados */
+.main-title {
+    font-size: clamp(36px, 5vw, 48px); /* Responsivo */
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.section-title {
+    font-size: clamp(28px, 4vw, 36px); /* Responsivo */
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+/* Sistema de entrada mejorado */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.input-name {
+    width: 70%;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+/* Botones completamente reorganizados */
+.button-add {
+    width: 30%;
+    padding: 15px;
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+    border: 2px solid #000;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin: 25px 0;
+}
+
+/* Estilos base para botones de acción */
+.button-draw,
+.button-reset {
+    padding: 15px 25px;
+    min-width: 180px;
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.button-draw {
+    background-color: var(--color-button);
+    color: var(--color-white);
+}
+
+.button-reset {
+    background-color: var(--color-reset);
+    color: var(--color-white);
+}
+
+/* Efectos hover unificados */
+.button-add:hover,
+.button-draw:hover,
+.button-reset:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-reset:hover {
+    background-color: var(--color-reset-hover);
+}
+
+/* Estados deshabilitados mejorados */
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: var(--color-tertiary) !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Íconos en botones */
+.button-draw img,
+.button-reset img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+/* Listas optimizadas */
+.name-list,
+.result-list {
+    list-style-type: none;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.name-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-list {
+    color: var(--color-success);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 50px;
+}
+
+/* Responsive mejorado */
+@media (max-width: 600px) {
+    .input-wrapper {
+        flex-direction: column;
+    }
+    
+    .input-name,
+    .button-add {
+        width: 100%;
+        border-radius: 25px;
+    }
+    
+    .button-add {
+        margin-top: 10px;
+    }
+    
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .button-draw,
+    .button-reset {
+        width: 100%;
+    }
+}
+
