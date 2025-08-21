@@ -52,12 +52,12 @@ No puedes agregar un nombre si el campo de texto está vacío.
 ---
 
 ### 5. Lista de Participantes
-A medida que agregas nombres, se listarán en la sección correspondiente. Puedes editar o eliminar cualquier nombre de la lista antes de realizar el sorteo.
+A medida que agregas nombres, se listarán en la sección correspondiente.
 ![La interfaz muestra el nombre que el usuario acaba de digitar](https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/IndicaQueNombreDigitaste.bmp)
 
 ---
 
-### 6. Error al Realizando el Sorteo con Campo en Blanco
+### 6. Error al Realizando el Sorteo con Campo en Blanco.
 ![Botón de sorteo amigo secreto presionado](https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/ErrorSortearAmigoEnBlanco.bmp)
 
 ---
@@ -73,7 +73,7 @@ Una vez tengas todos los participantes, haz clic en el botón "Sortear amigo sec
 ![GIF que demuestra el funcionamiento de la app Amigo Secreto: agregar nombres, mostrar errores y hacer el sorteo](https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/demo-amigo-secreto.gif)
 
 ### 8. 🎥 Video Demostrativo
-¡Mira la aplicación en acción! Este video muestra el flujo completo: agregar nombres, ver errores y realizar el sorteo final. Para ser Descargado!!!!
+Este video muestra el flujo completo: agregar nombres, ver errores y realizar el sorteo final. Para ser Descargado!!!!
 ![Video demostrativo del funcionamiento de la app](https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/video-1.mp4)
 
 ## 🛠️ Posibles Problemas y Soluciones
@@ -83,4 +83,4 @@ Una vez tengas todos los participantes, haz clic en el botón "Sortear amigo sec
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Esto significa que puedes usarlo libremente para cualquier propósito.
+Este proyecto está bajo uso restringido. De Propiedad de Alejandro Landa M. y toda descarga debe ser avisado autorizada de forma escrita el uso del codigo fuente. Solo se autoriza a "alura LATAM - ONE Oracle Next Education" para su descarga libre y uso para los fines pedagogicos o que estime conveniente.-
