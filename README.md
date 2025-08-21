@@ -66,8 +66,14 @@ Una vez tengas todos los participantes, haz clic en el botón "Sortear amigo sec
 
 ---
 
-### 7. 🎥 Video Demostrativo
-¡Mira la aplicación en acción! Este video muestra el flujo completo: agregar nombres, ver errores y realizar el sorteo final.
+### 7. 🎥 Demo en Video
+
+¡Mira la aplicación en acción! Este GIF muestra el flujo completo: agregar nombres, ver errores y realizar el sorteo final.
+
+![GIF que demuestra el funcionamiento de la app Amigo Secreto: agregar nombres, mostrar errores y hacer el sorteo](https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/demo-amigo-secreto.gif)
+
+### 8. 🎥 Video Demostrativo
+¡Mira la aplicación en acción! Este video muestra el flujo completo: agregar nombres, ver errores y realizar el sorteo final. Para ser Descargado!!!!
 ![Video demostrativo del funcionamiento de la app](https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/video-1.mp4)
 
 ## 🛠️ Posibles Problemas y Soluciones
