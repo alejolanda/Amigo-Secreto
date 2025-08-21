@@ -10,6 +10,8 @@ y efectos interactivos, que me permite ser liviano y atarctivo al usuario.
 Como se ejecuta este Proyecto, al iniciar o cargar la pagina https://alejolanda.github.io/Amigo-Secreto/
 aparece la siguiente ventana de Bienvenida
 
+https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/inicio.bmp
+
 
 
 
