@@ -57,9 +57,12 @@ A medida que agregas nombres, se listarán en la sección correspondiente. Puede
 
 ---
 
-### 6. Realizando el Sorteo
-Una vez tengas todos los participantes, haz clic en el botón "Sortear amigo secreto" para descubrir tu pareja.
+### 6. Error al Realizando el Sorteo con Campo en Blanco
 ![Botón de sorteo amigo secreto presionado](https://github.com/alejolanda/Amigo-Secreto/raw/main/Imagenes/ErrorSortearAmigoEnBlanco.bmp)
+
+---
+
+Una vez tengas todos los participantes, haz clic en el botón "Sortear amigo secreto" para descubrir tu pareja.
 
 ---
 
