@@ -45,8 +45,9 @@ function actualizarLista() {
 function agregarAmigo() {
     let nombre = inputAmigo.value.trim();
 
-    if (nombre === "") {
-        asignarTextoElemento(".section-title", "Por Favor Inserte un Nombre <br> ⬇️⬇️⬇️⬇️.");
+    if (nombre === ""|| !/^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$/.test(nombre)) {
+        asignarTextoElemento(".section-title", "Por Favor Inserte un Nombre <br> ⬇️⬇️ Solo Letras. ⬇️⬇️");
+        limpiarCaja();
         return;
     }
 
